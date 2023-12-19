@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Desenvolvedor", "Analista de Suporte Pleno", "YouTuber", "Designer", "Freelancer"],
+        strings: ["Desenvolvedor", "Analista de Suporte Pleno","Coordenador de TI", "Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Desenvolvedor", "Analista de Suporte Pleno", "YouTuber", "Designer", "Freelancer"],
+        strings: ["Desenvolvedor", "Analista de Suporte Pleno","Coordenador de TI", "Designer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -71,3 +71,19 @@ $(document).ready(function(){
         }
     });
 });
+
+const swiper = new Swiper('.swiper', {
+
+    direction: 'vertical',
+    loop: true,
+  
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });

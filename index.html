@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -13,14 +13,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
+        
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Portfó<span>lio.</span></a></div>
+            <div class="logo"><a href="#home">Portfol<span>io.</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">Sobre</a></li>
@@ -35,15 +38,16 @@
         </div>
     </nav>
 
-    <!-- home section start -->
+
     <section class="home" id="home">
         
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Oi, meu nome é</div>
                 <div class="text-2">Bryan Gabriel</div>
-                <div class="text-3">E eu sou <span class="typing"></span></div>
+                <div class="text-3">E eu sou <span class="typing"> </span></div>
                 <a href="#contact">Contrate-me</a>
+                <a href="https://drive.google.com/u/0/uc?id=1ofTBqakaZ8xZm5LwpmgCdmDE5n8I2DJ8&export=download" class="cv">Download CV</a>
         </div>
         <video autoplay muted loop class="video">
             <source src="CSS/backgroun animado.mp4" type="video/mp4">
@@ -51,106 +55,197 @@
         
     </section>
 
-    <!-- about section start -->
+
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">Sobre mim</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="IMG/1.jpg" alt="">
+                    <img src="IMG/1.png" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">Eu sou um <span class="typing-2"></span></div>
+                    <div class="text">Eu sou <span class="typing-2"></span></div>
                     <p>Sou um apaixonado pela área de tecnologia, motivado pela busca constante da inovação e do aprimoramento. Minha jornada profissional é uma fusão de habilidades técnicas sólidas e criatividade incessante. Tendo trabalhado na área da educação, liderado projetos, entendo o poder do ensino e da busca pelo conhecimento, entendo que a dedicação é a chave para a impulsionar o sucesso organizacional por meio da gestão e desenvolvimento de soluções através  tecnológicas inovadoras. Com um histórico comprovado de competência e desempenho, tenho o ideal inerente de <b>"vestir a camisa da empresa"</b>, algo muito <b>difícil</b> de encontrar hoje no mercado. estou pronto para enfrentar desafios complexos e fazer a diferença no mundo da tecnologia, entregando resultados excepcionais e impulsionando o progresso digital.</p>
-                    <a href="#">Download CV</a>
+                    <a href="https://drive.google.com/u/0/uc?id=1ofTBqakaZ8xZm5LwpmgCdmDE5n8I2DJ8&export=download">Download CV</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- services section start -->
+  
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">My services</h2>
+            <h2 class="title">Meus Serviços </h2>
             <div class="serv-content">
                 <div class="card">
-                    <div class="box">
+                    <a href="webdesing.html" class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Web Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
+                        <p>Transformo a sua ideia em uma experiência online, trazendo trabalhos envolventes e criativos</p>                      
+                    </a>
+
+                </div>
+                <div  class="card">
+                    <a href="gerenteti.html"  class="box">
+                        <i class="fas fa-desktop"></i>
+                        <div class="text">Coordenador de TI<img class="img-thumbnail" src="" alt=""></div>
+                        <p>Com habilidade de gestão, controle, domínio, educação entre trantas outras coisa que eu </p>
+                    </a>
                 </div>
                 <div class="card">
-                    <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Advertising</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                    </div>
+                    <a href="analista.html" class="box">
+                        <i class="fas fa-brain"></i>
+                        <div class="text">Analista de Suporte</div>
+                        <p>Profundo conhecimento em interpretação de informações. Domínio para tomadas de decisão.</p>
+                    </a>
                 </div>
                </div>
             </div>
         </div>
     </section>
 
-    <!-- skills section start -->
-    <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title">My skills</h2>
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
-                    <a href="#">Read more</a>
+    <div class="swiper">
+            <section class="skills swiper-container" id="skills">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="max-width">
+                            <h2 class="title">Minhas Skills em Programação</h2>
+                            <div class="skills-content">
+                                <div class="column left">
+                                    <div class="text">Meus conhecimentos em programação</div>
+                                    <p> Sou apoixonado pelo aprendizado, gosto de me levar ao limite no quesito trabalho e auto conhecimento, ao lado temos alguns das minhas skills em tecnologias para desenvolvimento. As porcentagens do meu desenvolvimento intelectual vem crescendo e as skills são atualizadas peridodicamente juntamente com novas tecnologias que descubro e implementp. </p>
+                                    <a href="#">Clique aqui</a>
+                                </div>
+                                <div class="column right">
+                                    <div class="bars">
+                                        <div class="info">
+                                            <span>HTML</span>
+                                            <span>90%</span>
+                                        </div>
+                                        <div class="line html"></div>
+                                    </div>
+                                    <div class="bars">
+                                        <div class="info">
+                                            <span>CSS</span>
+                                            <span>60%</span>
+                                        </div>
+                                        <div class="line css"></div>
+                                    </div>
+                                    <div class="bars">
+                                        <div class="info">
+                                            <span>Python</span>
+                                            <span>80%</span>
+                                        </div>
+                                        <div class="line js"></div>
+                                    </div>
+                                    <div class="bars">
+                                        <div class="info">
+                                            <span>JavaScript</span>
+                                            <span>80%</span>
+                                        </div>
+                                        <div class="line js"></div>
+                                    </div>
+                                    <div class="bars">
+                                        <div class="info">
+                                            <span>Bootstrap</span>
+                                            <span>50%</span>
+                                        </div>
+                                        <div class="line php"></div>
+                                    </div>
+                                    <div class="bars">
+                                        <div class="info">
+                                            <span>React</span>
+                                            <span>70%</span>
+                                        </div>
+                                        <div class="line mysql"></div>
+                                    </div>
+                                    <div class="bars">
+                                        <div class="info">
+                                            <span>C++</span>
+                                            <span>50%</span>
+                                        </div>
+                                        <div class="line php"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="column right">
-                    <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span>90%</span>
+                <div class="swiper-slide">
+                    <div class="max-width">
+                        <section class="skills2" id="skills2"> 
+                            <h2 class="title">Minhas Skills em Marketing & Design</h2>
+                        <div class="skills-content">
+                            <div class="column left">
+                                <div class="text">Meus conhecimentos em Marketing & Design</div>
+                                <p> Sou apoixonado pelo aprendizado, gosto de me levar ao limite no quesito trabalho e auto conhecimento, ao lado temos alguns das minhas skills em tecnologias para desenvolvimento. As porcentagens do meu desenvolvimento intelectual vem crescendo e as skills são atualizadas peridodicamente juntamente com novas tecnologias que descubro e implementp. </p>
+                                <a href="#">Clique aqui</a>
+                            </div>
+                            <div class="column right">
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Photoshop</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="line html"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Premiere</span>
+                                        <span>60%</span>
+                                    </div>
+                                    <div class="line css"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>After Effects</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="line js"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Illustrator</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="line js"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Branding</span>
+                                        <span>50%</span>
+                                    </div>
+                                    <div class="line php"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <span>Copy Writer</span>
+                                        <span>70%</span>
+                                    </div>
+                                    <div class="line mysql"></div>
+                                </div>
+                            
+                            </div>
                         </div>
-                        <div class="line html"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span>60%</span>
-                        </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line js"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>PHP</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line php"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>MySQL</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line mysql"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- contact section start -->
+                        </section>
+
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            
+        </section>
+            
+    </div>
+
+
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Entre em contato comigo</h2>
@@ -182,37 +277,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="column right">
-                    <div class="text">Mensagem</div>
-                    <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
-                        </div>
-                        <div class="button-area">
-                            <button type="submit">Enviar</button>
-                        </div>
-                    </form>
+                <div>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- footer section start -->
+
     <footer>
-        <span>Created By <a href="#home">BryanDev</a> | <span class="far fa-copyright"></span> 2023 Todos os direitos reserdos</span>
+        <span>Created By <a href="#skills">BryanDev</a> | <span class="far fa-copyright"></span> 2023 Todos os direitos reservados</span>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="JS/script.js"></script>
 </body>
 </html>
